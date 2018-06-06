@@ -6,7 +6,6 @@ def get_input():
         try:
             n = int(eingabe)
             return n
-            break
         except ValueError:
             print('Bitte Zahl eingeben.')
 
